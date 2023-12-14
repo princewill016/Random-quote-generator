@@ -15,9 +15,13 @@
   <body>
     <div class="container">
       <h1>Quotes of the day</h1>
-      <i class="fas fa-quote-left" id="quotes-mark"></i>
+      <div id="quotes-mark">
+        <i class="fas fa-quote-left" id="quotes-mark"></i>
+      </div>
       <p class="quotes"></p>
-      <i class="fas fa-quote-right"></i>
+      <div id="quotes-mark2">
+        <i class="fas fa-quote-right" id="quotes-mark2"></i>
+      </div>
       <p class="author" id="author"></p>
       <p class="creator">
         Made with
@@ -26,12 +30,13 @@
       <hr />
       <div class="footer">
         <div class="socials">
-          <span><i class="fas fa-regular fa-copy"></i></span>
-          <span><i class="fab fa-brands fa-twitter"></i></span>
+          <span><i class="fas fa-regular fa-copy" id="footicon1"></i></span>
+          <span><i class="fab fa-brands fa-twitter" id="footicon2"></i></span>
         </div>
         <button>New Quote</button>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

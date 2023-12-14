@@ -5,30 +5,30 @@
 }
 
 body {
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: plum;
+  transition: background-color 1s ease-in-out;
 }
 .container {
   padding: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-  border-radius: 15px;
-  width: 600px;
-  background-color: wheat;
+  border-radius: 20px;
+  max-width: 50rem;
+  max-height: 50rem;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 100px;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 40px;
+  margin-bottom: 1em;
+  font-size: 3.5em;
 }
+
 .quotes {
-  font-size: 30px;
+  font-size: 2rem;
   text-align: center;
-  margin-bottom: 20px;
 }
+
 .author {
   text-align: end;
   margin-bottom: 30px;
@@ -38,14 +38,14 @@ h1 {
 }
 .creator {
   text-align: center;
-  font-size: 15px;
+  font-size: 1.2em;
 }
 hr {
   border: 1px solid black;
 }
 .footer {
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .socials {
   margin-right: auto;
@@ -58,19 +58,23 @@ button {
   padding: 0px 20px;
   border-radius: 50px;
   border: none;
+  transition: background-color 1s ease-in-out;
   cursor: pointer;
-  background-color: #1e3050;
-  color: wheat;
+
+  font-size: 1.2em;
 }
 
 .fa-twitter,
 .fa-copy {
-  font-size: 15px;
+  font-size: 1.5rem;
   border: 2px solid #1e3050;
   padding: 15px;
   border-radius: 50%;
 }
 
-.fa-quote-right {
+#quotes-mark2 {
   float: right;
+}
+#quotes-mark {
+  float: left;
 }
