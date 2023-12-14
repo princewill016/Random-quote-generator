@@ -78,3 +78,33 @@ button {
 #quotes-mark {
   float: left;
 }
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 35px;
+  }
+  .quotes {
+    font-size: 1.2rem;
+  }
+  .author {
+    font-size: 1rem;
+  }
+  .creator {
+    font-size: 1rem;
+  }
+  hr {
+    border: 0.5px solid black;
+  }
+  button {
+    padding: 0px 10px;
+    font-size: 1em;
+  }
+
+  .fa-twitter,
+  .fa-copy {
+    font-size: 1.5rem;
+    border: 2px solid #1e3050;
+    padding: 5px;
+    border-radius: 50%;
+  }
+}
