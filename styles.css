@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: plum;
+}
+.container {
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  width: 600px;
+  background-color: wheat;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.quotes {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.author {
+  text-align: end;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 50px;
+}
+.creator {
+  text-align: center;
+  font-size: 15px;
+}
+hr {
+  border: 1px solid black;
+}
+.footer {
+  display: flex;
+  margin-top: 10px;
+}
+.socials {
+  margin-right: auto;
+  display: flex;
+}
+.socials > span {
+  margin-right: 20px;
+}
+button {
+  padding: 0px 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: #1e3050;
+  color: wheat;
+}
+
+.fa-twitter,
+.fa-copy {
+  font-size: 15px;
+  border: 2px solid #1e3050;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.fa-quote-right {
+  float: right;
+}
